@@ -18,3 +18,8 @@ This repository contains a simple Telegram bot that forwards user messages to th
    ```
 
 The bot listens for messages and replies using ChatGPT. Each chat maintains its own history so the responses stay in context.
+
+## Troubleshooting
+If you see a `SyntaxError` mentioning lines like `index 000000...` when running `bot.py`,
+you may have copied diff markers instead of the actual code. Download the raw
+`bot.py` file from this repository to avoid that issue.
