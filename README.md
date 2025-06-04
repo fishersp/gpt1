@@ -1,6 +1,6 @@
 # gpt1
 
-This repository contains a simple Telegram bot that forwards user messages to the OpenAI ChatGPT API. The bot behaves like a digital twin of your ChatGPT profile.
+This repository contains a simple Telegram bot that forwards user messages to the OpenAI ChatGPT API. The bot behaves like a digital twin of your ChatGPT profile and remembers each user's conversation.
 
 ## Setup
 
@@ -17,4 +17,4 @@ This repository contains a simple Telegram bot that forwards user messages to th
    python bot.py
    ```
 
-The bot listens for messages and replies using ChatGPT.
+The bot listens for messages and replies using ChatGPT. Each chat maintains its own history so the responses stay in context.
