@@ -1,1 +1,20 @@
 # gpt1
+
+This repository contains a simple Telegram bot that forwards user messages to the OpenAI ChatGPT API. The bot behaves like a digital twin of your ChatGPT profile.
+
+## Setup
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Set the following environment variables with your credentials:
+   - `TELEGRAM_BOT_TOKEN` – token for your Telegram bot
+   - `OPENAI_API_KEY` – API key for OpenAI
+
+3. Run the bot:
+   ```bash
+   python bot.py
+   ```
+
+The bot listens for messages and replies using ChatGPT.
